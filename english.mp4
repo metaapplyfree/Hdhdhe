@@ -1,0 +1,8 @@
+<div class="modal-overlay" id="videoModal" onclick="closeVideoModal(event)">
+        <div class="video-modal-content" onclick="event.stopPropagation();">
+            <button class="video-close" onclick="closeVideoModal()">&times;</button>
+            <video controls id="videoPlayer">
+                <source src="english.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
